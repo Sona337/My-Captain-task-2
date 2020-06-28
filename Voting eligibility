@@ -1,0 +1,18 @@
+//To check if a person is eligible to vote or not
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+ 	 int age;
+ 	 cout<<"Enter the age of the person:";
+ 	 cin>>age;
+ 	 if(age>=18)
+ 	 {
+ 	 	cout<<"\nThe person is eligble to vote";
+	  }
+	  else
+	  	  cout<<"\nNot eligible";
+	  	  
+ 	 return 0;
+}
